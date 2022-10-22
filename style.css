@@ -43,27 +43,61 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3em;
 }
 .a{
     margin-bottom: 10rem; 
 }
 .illustration{
-    width: 58em;
+    width: 38rem;
+    animation: 2s aparecer ease-in;
 }
 h1{
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 2.7em;
+    font-size: 2.7rem;
     line-height: 1.4em;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
     color:  hsl(243, 87%, 12%);
 }
 p{
-    color:  hsl (240, 75%, 98%);
+    color:  hsl(243, 87%, 12%);
     margin-bottom: 1.2em;
 }
-.get{
-    display: flex;
+.email_one{
+    border: 1.3px solid hsl(243, 87%, 12%) ;
+    padding: 0.9em 0em;
+    width: 20em;
+    padding-left: 6px ;
+    text-align: left;
+    border-radius: 3px;
+}
+input:focus {
+        box-shadow: none;
+        outline: none;
+}
+.button{
+    padding: 0.9em 5em;
+    background-color: hsl(224, 93%, 58%);
+    color:#fff ;
+    border:1px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+    font-weight: 400;
+    font-size: 0.867em;
+}
+.button:hover{
+    opacity: 0.6;
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
