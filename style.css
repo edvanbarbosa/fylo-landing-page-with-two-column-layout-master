@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
@@ -24,7 +24,7 @@ header{
     padding: 2em;
     margin: 1.3em 1.6em 2.1em 1.6em;
 }
-#logo{
+.logo{
     width: 7em;
 }
 nav > a {
@@ -112,9 +112,55 @@ input:focus {
     margin-left: 3px;
    
 }
+
+.depositions{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3em 0em;
+    width: 30.3em;
+    box-shadow: 0.7px 0.7px 20px rgba(74, 73, 73, 0.138);
+    border-radius: 0.3em;
+    font-size: 0.86em;
+    color:hsl(243, 87%, 12%);
+    margin-top: 4em;
+
+}
+.testimonial{
+    line-height: 2em;
+}
+.author{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+.avatar{
+    margin-right: 10px;
+    height: 3.7em;
+    border-radius: 50%;
+}
+h3{
+    letter-spacing: 1px;
+    margin-bottom: -0.9em;
+    
+    
+}
+.author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -0.1px;
+}
+.author_text  p{
+    margin-bottom: -0.5em;
+    letter-spacing: 1px;
+    font-size: 0.7em;
+}
 .email_two{
     border: none;
-    padding: 0.9em 0em;
+    padding: 1.1em 0em;
     width: 34em;
     padding-left: 6px ;
     text-align: left;
@@ -126,29 +172,76 @@ div{
 }
 
 .get_early{
+    padding: 5em 4em;
     background-color: hsl(238, 22%, 44%);
 }
 
 .get_early_h2{
     color: #fff;
 }
-.depositions{
-    background-color: #fff;
-    padding: 3em 2em;
-    box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.138);
-    border-radius: 0.7em;
+.get_early p{
+    color:rgb(172, 172, 206);
+    font-size: 0.98em;
+    line-height: 1.6em;
+    letter-spacing: 0.3px;
+    font-family: 'Open Sans';
 }
-.author{
+.get_early form{
     display: flex;
-    justify-content: baseline;
-    align-items: flex-end;
-}
-.avatar{
-    width: 3.7em;
-    border-radius: 50%;
-    margin-right: 2em;
-}
+    flex-direction: column;
 
+}.get_early form .button{
+    width: 21em;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    background-color: hsl(243, 87%, 12%) ;
+    padding: 5em 3em ;
+}
+ul{
+    line-height: 2.2em;
+    list-style-type: none;
+}
+ul a{
+    font-size: 1.001em;
+}
+.logo-white{
+    height: 2.6em;
+    margin-bottom: 1.4em;
+}
+.contat_icon{
+    
+    fill :hsl(243, 59%, 30%) ;
+}
+.contat_icon svg{
+    margin-right: 8px;
+}
+.contat_icon:hover{
+    fill: #fff;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+ul a {
+    transition: 0.6s ease-in-out;
+}
+ul a:hover{
+    color: #fff;
+   
+}
+.social-icons svg{
+    height: 2.3em;
+    margin: 0 0.3em;
+    fill: hsl(243, 59%, 30%);
+    transition: 0.6s ease-in-out;
+}
+.social-icons svg:hover{
+    fill: #fff;
+}
 
 @keyframes aparecer{
     from{
