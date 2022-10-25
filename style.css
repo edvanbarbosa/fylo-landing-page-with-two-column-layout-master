@@ -27,19 +27,17 @@ header{
 .logo{
     width: 7em;
 }
-nav > a {
+nav a {
     text-decoration: none;
     margin: 1.4em;
     color:  hsl(0, 0%, 75%);
     transition: 0.4s ease-in-out;
 }
-nav > a:hover{
+nav a:hover{
     color:  hsl(256, 38%, 53%);
 }
-main{
-
-}
 section{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,6 +46,7 @@ section{
 }
 .a{
     margin-bottom: 10rem; 
+    height: 70vh;
 }
 .illustration{
     width: 38rem;
@@ -200,6 +199,7 @@ footer{
     color: #fff;
     background-color: hsl(243, 87%, 12%) ;
     padding: 5em 3em ;
+    font-family: 'Open Sans', sans-serif;
 }
 ul{
     line-height: 2.2em;
@@ -207,6 +207,7 @@ ul{
 }
 ul a{
     font-size: 1.001em;
+    color:hsl(243, 49%, 37%);
 }
 .logo-white{
     height: 2.6em;
@@ -236,7 +237,7 @@ ul a:hover{
 .social-icons svg{
     height: 2.3em;
     margin: 0 0.3em;
-    fill: hsl(243, 59%, 30%);
+    fill: hsl(243, 49%, 37%);
     transition: 0.6s ease-in-out;
 }
 .social-icons svg:hover{
