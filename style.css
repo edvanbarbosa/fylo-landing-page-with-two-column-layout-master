@@ -27,17 +27,14 @@ header{
 .logo{
     width: 7em;
 }
-nav > a {
+nav a {
     text-decoration: none;
     margin: 1.4em;
     color:  hsl(0, 0%, 75%);
     transition: 0.4s ease-in-out;
 }
-nav > a:hover{
+nav a:hover{
     color:  hsl(256, 38%, 53%);
-}
-main{
-
 }
 section{
     display: flex;
@@ -48,6 +45,7 @@ section{
 }
 .a{
     margin-bottom: 10rem; 
+    max-height: 100vh;
 }
 .illustration{
     width: 38rem;
@@ -77,12 +75,12 @@ p{
     margin-right: 1.5em;
 }
 input:focus {
-        box-shadow: none;
-        outline: none;
+    box-shadow: none;
+    outline: none;
 }
 .button{
     font-family:'Open Sans', sans-serif ;
-    padding: 0.9em 5em;
+    padding: 0.865em 5em;
     background-color: hsl(224, 93%, 58%);
     color:#fff ;
     border:1px solid hsl(224, 93%, 58%);
@@ -106,6 +104,7 @@ input:focus {
     border-bottom: 2px solid hsl(170, 45%, 43%);
     margin-right: 13px;
     padding-bottom: 4px;
+    width: 100%;
 }
 .arrow{
     width: 1.5em;
@@ -251,3 +250,58 @@ ul a:hover{
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1322px) {
+    header{
+       padding-bottom: 6.3em;
+    }
+    .button{
+        padding: 0.780em 3em; 
+    }
+    .illustration{
+        width: 28rem;
+    }
+    h1{
+        font-size: 1.7rem;
+        margin-top: 4em;
+    }
+    h2{
+        font-size: 1.5em;
+        margin-top: 4em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    
+}
+
+@media screen and (max-width:1073px) {
+    header{
+        padding-bottom: 10em;
+    }
+    nav a{
+        margin: 0.9em;
+    }
+    .logo{
+        width: 6em;
+    }
+    section{
+        flex-direction: column-reverse;
+       
+    }
+    .a{
+        margin: 0em 1em;
+        text-align: center;
+    }
+    }
+    .b{
+        text-align: left;
+    }
+    .see{
+        text-align: center;
+    }
+
+    form{
+        margin: 3.44em;
+    }
+    
