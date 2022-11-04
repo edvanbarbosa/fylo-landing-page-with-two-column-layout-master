@@ -252,3 +252,13 @@ ul a:hover{
         opacity: 1;
     }
 }
+
+@media screen and (width:850px) {
+    header{
+        padding: 1em;
+        height: 90vh;
+    }
+    .logo{
+        width:89.5em;
+    }
+}
