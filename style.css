@@ -37,6 +37,7 @@ nav a:hover{
     color:  hsl(256, 38%, 53%);
 }
 section{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +46,6 @@ section{
 }
 .a{
     margin-bottom: 10rem; 
-    max-height: 100vh;
 }
 .illustration{
     width: 38rem;
@@ -199,6 +199,7 @@ footer{
     color: #fff;
     background-color: hsl(243, 87%, 12%) ;
     padding: 5em 3em ;
+    font-family: 'Open Sans', sans-serif;
 }
 ul{
     line-height: 2.2em;
@@ -206,6 +207,7 @@ ul{
 }
 ul a{
     font-size: 1.001em;
+    color:hsl(243, 49%, 37%);
 }
 .logo-white{
     height: 2.6em;
@@ -235,7 +237,7 @@ ul a:hover{
 .social-icons svg{
     height: 2.3em;
     margin: 0 0.3em;
-    fill: hsl(243, 59%, 30%);
+    fill: hsl(243, 49%, 37%);
     transition: 0.6s ease-in-out;
 }
 .social-icons svg:hover{
@@ -250,58 +252,3 @@ ul a:hover{
         opacity: 1;
     }
 }
-
-@media screen and (max-width: 1322px) {
-    header{
-       padding-bottom: 6.3em;
-    }
-    .button{
-        padding: 0.780em 3em; 
-    }
-    .illustration{
-        width: 28rem;
-    }
-    h1{
-        font-size: 1.7rem;
-        margin-top: 4em;
-    }
-    h2{
-        font-size: 1.5em;
-        margin-top: 4em;
-    }
-    p{
-        font-size: 1.1em;
-    }
-    
-}
-
-@media screen and (max-width:1073px) {
-    header{
-        padding-bottom: 10em;
-    }
-    nav a{
-        margin: 0.9em;
-    }
-    .logo{
-        width: 6em;
-    }
-    section{
-        flex-direction: column-reverse;
-       
-    }
-    .a{
-        margin: 0em 1em;
-        text-align: center;
-    }
-    }
-    .b{
-        text-align: left;
-    }
-    .see{
-        text-align: center;
-    }
-
-    form{
-        margin: 3.44em;
-    }
-    
