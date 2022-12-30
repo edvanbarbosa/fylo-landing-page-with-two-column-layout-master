@@ -94,6 +94,8 @@ input:focus {
     transition: 0.5s ease-in-out;
 }
 .b{
+    display: flex;
+    flex-direction: row;
     background: white url("images/bg-curve-desktop.svg") top center;
     background-size: cover;
     padding-top: 4em;
@@ -250,5 +252,88 @@ ul a:hover{
     }
     to{
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:1325px) {
+    h1,h2{
+        font-size: 1.5rem;
+    }
+    .email_one{
+        margin-bottom: 1em;
+    }
+    .form_one .button{
+        width:19.2em ;
+    }
+    .email_two{
+        width: 25em;
+    }
+    }.get_early form .button{
+        width:24em;
+    }
+    .illustration{
+        width: 33rem;
+        animation: 1.4s aparecer ease-in;
+    }
+    p, .get_early p{
+        font-size: 0.9em;
+    }
+    .depositions{
+        padding: 3em 0em;
+        width: 26.3em;
+    }
+
+@media screen and (max-width: 1051px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    p, .get_early p{
+        font-size: 1.2em;
+    }
+    header{
+        margin: 1.3em 0em 2.1em 0em;
+    }
+    nav a {
+        margin-right: 0.6em;
+    }
+    .logo{
+        width: 6.7em;
+    }
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .illustration{
+        width: 28rem;
+        animation: 1.4s aparecer ease-in;
+        margin-bottom: 8rem;
+    }
+    .a{
+        text-align: center ;
+        margin-bottom: 8rem; 
+    }
+    .form_one{
+        margin-top: 3em;
+    }
+    .email_one{
+        width: 80%;
+    }
+    .form_one .button{
+        width:80% ;
+        margin-left: -1.4em;
+    }
+    h2{
+        margin-bottom: 1.7em;
+    }
+    .b{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .b > .text{
+        text-align: center;
+        width: 80%;
     }
 }
