@@ -45,16 +45,26 @@ section{
   
 }
 .a{
+    margin: 3em;
+    margin-top: 4em;
+    justify-content: space-between;
     margin-bottom: 10rem; 
 }
 .illustration{
-    width: 38rem;
     animation: 1.4s aparecer ease-in;
+    margin: 0;
+}
+.imge{
+    text-align: center;
+    margin: 0;
+}
+.b .imge{
+    margin-right: 3em;
 }
 h1,h2{
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 1.4em;
     margin-bottom: 0.8em;
     color:  hsl(243, 87%, 12%);
@@ -62,8 +72,11 @@ h1,h2{
 p{
     color:  hsl(243, 87%, 12%);
     font-weight: 400;
-    font-size: 1.2em;
     margin-bottom: 1.2em;
+}
+
+.a p{
+    font-size: 1.2em;
 }
 .email_one{
     border: 1.3px solid hsl(243, 87%, 12%) ;
@@ -100,6 +113,27 @@ input:focus {
     background-size: cover;
     padding-top: 4em;
     padding-bottom: 7em ;
+    font-size: 1.2em;
+}
+.b h2{
+    font-size: 1.7em;
+}
+.b .imge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.b .illustration{
+    width: 75%;
+}
+.b > .text{
+    margin-right: 6em;
+    width: 50%;
+}
+.see{
+    margin: 0;
 }
 .see_link{
     color: hsl(170, 45%, 43%); 
@@ -119,8 +153,8 @@ input:focus {
     align-items: flex-start;
     flex-direction: column;
     background-color: #fff;
-    padding: 3em 0em;
-    width: 30.3em;
+    padding: 1em 0em;
+    width: 28.3em;
     box-shadow: 0.7px 0.7px 20px rgba(74, 73, 73, 0.138);
     border-radius: 0.3em;
     font-size: 0.86em;
@@ -175,6 +209,9 @@ div{
 .get_early{
     padding: 5em 4em;
     background-color: hsl(238, 22%, 44%);
+}
+.get_early > .text{
+    width: 34%;
 }
 
 .get_early_h2{
@@ -282,6 +319,7 @@ ul a:hover{
         padding: 3em 0em;
         width: 26.3em;
     }
+    
 
 @media screen and (max-width: 1051px) {
     h1{
@@ -311,6 +349,7 @@ ul a:hover{
         margin-bottom: 8rem;
     }
     .a{
+        margin: 0;
         text-align: center ;
         margin-bottom: 8rem; 
     }
@@ -328,12 +367,64 @@ ul a:hover{
         margin-bottom: 1.7em;
     }
     .b{
-        display: flex;
-        flex-direction: row;
-       
+        flex-direction: column-reverse;
+    }
+    .b .imge{
+        height: 20em;
     }
     .b > .text{
         text-align: center;
         width: 80%;
     }
+    .b p{
+        font-size: 0.9em;
+        text-align: left;
+    }
+    .see{
+        margin-top: 3em;
+        margin-left: 0em;
+        width: 100%;
+        margin-bottom: 6em;
+    }
+    .see p{
+
+        width: 100%;
+        text-align: center;
+    }
+    .testimonial{
+        width: 70%;
+        padding: 0.4em;
+        text-align: left;
+        font-size: 0.85em;
+        line-height: 2.5em;
+    }
+    .get_early{
+        flex-direction: column;
+        text-align: center;
+        padding:5em;
+    }
+    .get_early> .text{
+        font-size: 0.8em;
+        width: 100%;
+    }
+    .get_early_h2{
+        font-size: 1.7em;
+    }
+    footer{
+        flex-direction: column;
+    }
+    ul{
+        margin-top: 3em;
+    }
+    .social-icons{
+        margin-top: 5em;
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .logo-white{
+        margin-bottom: 3.4em;
+    }
+    
 }
