@@ -380,6 +380,10 @@ ul a:hover{
         font-size: 0.9em;
         text-align: left;
     }
+    .b h2{
+        font-size: 1.1em;
+        margin-left: 2em;
+    }
     .see{
         margin-top: 3em;
         margin-left: 0em;
