@@ -346,7 +346,7 @@ ul a:hover{
         justify-content: space-between;
     }
     .illustration{
-        width: 28rem;
+        width: 18rem;
         animation: 1.4s aparecer ease-in;
         margin-bottom: 8rem;
     }
