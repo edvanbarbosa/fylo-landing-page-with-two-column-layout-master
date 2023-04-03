@@ -329,10 +329,10 @@ ul a:hover{
         font-size: 1.2em;
     }
     header{
-        margin: 1.3em 0em 2.1em 0em;
+        margin: 1.3em 0em 2.5em 0em;
     }
     nav a {
-        margin-right: 0.6em;
+        margin-right: 0.2em;
     }
     .logo{
         width: 6.7em;
@@ -344,7 +344,7 @@ ul a:hover{
         justify-content: space-between;
     }
     .illustration{
-        width: 28rem;
+        width: 22rem;
         animation: 1.4s aparecer ease-in;
         margin-bottom: 8rem;
     }
@@ -395,12 +395,18 @@ ul a:hover{
         width: 100%;
         text-align: center;
     }
+    .depositions{
+        width: 100%;
+    }
     .testimonial{
+
         width: 70%;
-        padding: 0.4em;
         text-align: left;
         font-size: 0.85em;
         line-height: 2.5em;
+    }
+    .author_text{
+        font-size: .8em;
     }
     .get_early{
         flex-direction: column;
