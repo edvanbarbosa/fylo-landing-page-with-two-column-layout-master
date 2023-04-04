@@ -392,15 +392,10 @@ ul a:hover{
         margin-left: 2.001em;
     }
     .see{
-        margin-top: 3em;
+       
         margin-left: 0em;
         width: 100%;
         margin-bottom: 6em;
-    }
-    .see p{
-
-        width: 100%;
-        text-align: center;
     }
     .envelope{
         display: flex;
@@ -421,6 +416,9 @@ ul a:hover{
         line-height: 2.5em;
     }
     .testimonial > img{
+        margin-left: 2em;
+    }
+    .author{
         margin-left: 2em;
     }
     .author_text{
